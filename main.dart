@@ -1,5 +1,6 @@
+import "point.dart";
 
-void main()
-{
-    print("Hello Dart");
+void main() {
+  var p = Point(10, 20);
+  p.show();
 }
